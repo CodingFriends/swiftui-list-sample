@@ -10,6 +10,8 @@ Switching between the views makes SwiftUI reload the list.
 
 It is obvious that the list on the Mac takes several seconds to load wheras it is pretty much instant on the iPhone.
 
+Read the discussion on the performance issue on [Stackoverflow](https://stackoverflow.com/questions/72070486/bad-performance-of-large-swiftui-lists-on-macos).
+
 
 ## Contribution
 
