@@ -6,13 +6,9 @@ struct SelectionTestApp: App {
 
     var body: some Scene {
         WindowGroup {
-            #if os(iOS)
             ContentView()
                 .environmentObject(store)
-            #else
-            ContentView()
-                .environmentObject(store)
-            #endif
+            
         }
     }
 }

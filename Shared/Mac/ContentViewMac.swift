@@ -15,6 +15,12 @@ struct ContentView: View {
             if (sidebarSelection == 0) {
                 WordList()
                 
+            } else if (sidebarSelection == 1) {
+                WordTable()
+                
+            } else if (sidebarSelection == 2) {
+                WordListOptimized()
+                
             } else {
                 Text("Switch between this and the list view and you will see that the list view takes a long time to load")
             }
